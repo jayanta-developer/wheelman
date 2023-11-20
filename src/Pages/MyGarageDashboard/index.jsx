@@ -597,11 +597,7 @@ export default function MyGarageDashboard() {
             })}
 
             <div
-              className="garage-list-col dasAddButton"
-            // style={{
-            //   width: listView ? "calc(50% - 50px)" : "calc(33.333% - 50px)",
-            // }}
-            >
+              className="garage-list-col dasAddButton">
               <button
                 style={{ height: listView ? "110px" : "100%" }}
                 className="garage-list-add-item"
