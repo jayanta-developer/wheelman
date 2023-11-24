@@ -329,7 +329,7 @@ export default function CreateNewRecord() {
 
             <div className="row">
               <div className="col-md-5 col-lg-4">
-                <p>
+                <p className="notecard-type">
                   Select Notecard Type: Maintenance, Modification, Restoration,
                   or Other
                 </p>
