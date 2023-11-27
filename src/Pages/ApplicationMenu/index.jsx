@@ -31,9 +31,9 @@ import notifyicon from "../../Assets/images/notify-btn-icon.svg";
 
 //Components
 import CreateNewRecord from "../../Pages/CreateNewRecord";
-// import VehicleLog from "../../Pages/VehicleLog";
-// import CostDashboard from "../../Pages/CostDashboard";
-// import DocumentTracking from "../../Pages/DocumentTracking";
+import VehicleLog from "../../Pages/VehicleLog";
+import CostDashboard from "../../Pages/CostDashboard";
+import DocumentTracking from "../../Pages/DocumentTracking";
 
 const drawerWidth = 240;
 
@@ -397,11 +397,11 @@ export default function PersistentDrawerLeft({ tab, setTab }) {
         {
           // tab === 0 ? <MyGarageDashboard /> :
           tab === 1 ? <CreateNewRecord /> :
-            // tab === 2 ? <VehicleLog /> :
-            // tab === 3 ? <CostDashboard /> :
-            // tab === 4 ? <DocumentTracking open={open} /> :
-            // tab === 5 ? :
-            null // Add a default case or handle it as per your requirement
+            tab === 2 ? <VehicleLog open={open} /> :
+              tab === 3 ? <CostDashboard /> :
+                tab === 4 ? <DocumentTracking open={open} /> :
+                  // tab === 5 ? :
+                  null // Add a default case or handle it as per your requirement
         }
       </Main>
     </Box>
