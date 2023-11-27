@@ -597,9 +597,9 @@ export default function MyGarageDashboard() {
             })}
 
             <div
-              className="garage-list-col dasAddButton">
+              className={listView ? "dasAddButton" : "dasAddButtonG"}>
               <button
-                style={{ height: listView ? "110px" : "100%" }}
+                // style={{ height: listView ? "110px" : "100%" }}
                 className="garage-list-add-item"
                 onClick={() => navigate("/add_car")}
               >
