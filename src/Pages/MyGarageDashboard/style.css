@@ -930,18 +930,29 @@
   }
 }
 
+@media only screen and (min-width: 770px) {
+  .dasAddButtonG {
+    height: 241px;
+  }
+}
+
 /* Desktop view */
 @media only screen and (min-width: 1000px) {
   .dasAddButton {
     width: calc(50% - 50px);
   }
   .dasAddButtonG {
-    width: calc(33.333% - 50px);
+    width: calc(50% - 50px);
     height: 260px;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .dasAddButtonG {
+    width: calc(33.333% - 50px);
+  }
+}
 @media only screen and (min-width: 1900px) {
-  .dasAddButton {
-    /* height: 351px; */
+  .dasAddButtonG {
+    height: 351px;
   }
 }
