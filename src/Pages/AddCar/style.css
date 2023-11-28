@@ -1,6 +1,5 @@
 .add-carContainer {
   width: 100%;
-  margin-top: 70px;
 }
 
 .add-car-showcase-item-list {
@@ -541,7 +540,6 @@
 }
 
 @media (min-width: 992px) {
-
   .modal-lg,
   .modal-xl {
     --bs-modal-width: 1000px !important;
@@ -577,17 +575,20 @@
   .create-record .detail-icon-card-content p {
     font-size: 16px;
   }
-
 }
 
-@media only screen and (min-width:761px) and (max-width:1023px) {
+@media only screen and (min-width: 761px) and (max-width: 1023px) {
   .modal-dialog {
     max-width: 94% !important;
   }
-  .detailed-row .pick, .detailed-row .part, .detailed-row .source, .detailed-row .cost {
+  .detailed-row .pick,
+  .detailed-row .part,
+  .detailed-row .source,
+  .detailed-row .cost {
     width: 25%;
   }
-  .simple-row, .detailed-row {
+  .simple-row,
+  .detailed-row {
     gap: 5px;
   }
 }
