@@ -340,23 +340,13 @@ export default function AddCar({ setTab }) {
               <div className="col-sm-6 col-lg-4">
                 <div className="form-input">
                   <label>Manufacturer</label>
-                  <select>
-                    <option>Select manufacturer</option>
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                  </select>
+                  <input type="text" placeholder="Manufacturer" />
                 </div>
               </div>
               <div className="col-sm-6 col-lg-4">
                 <div className="form-input">
                   <label>Model</label>
-                  <select>
-                    <option>Select model</option>
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                  </select>
+                  <input type="text" placeholder="Enter Model" />
                 </div>
               </div>
               <div className="col-sm-6 col-lg-4">
@@ -368,23 +358,13 @@ export default function AddCar({ setTab }) {
               <div className="col-sm-6 col-lg-4">
                 <div className="form-input">
                   <label>Color</label>
-                  <select>
-                    <option>Select color</option>
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                  </select>
+                  <input type="text" placeholder="Enter Color" />
                 </div>
               </div>
               <div className="col-sm-6 col-lg-4">
                 <div className="form-input">
                   <label>Transmission</label>
-                  <select>
-                    <option>Select transmission</option>
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                  </select>
+                  <input type="text" placeholder="Transmission" />
                 </div>
               </div>
               <div className="col-sm-6">
