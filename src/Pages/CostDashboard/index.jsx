@@ -8,12 +8,15 @@ import costicon04 from "../../Assets/images/img4.png";
 import linechart from "../../Assets/images/linegr.png";
 import piechart from "../../Assets/images/pie-chart.png";
 
+//components
+import PieArcLabel from "../../Component/PieChart"
+import ApexChart from "../../Component/LineChart"
+
 
 
 export default function CostDashboard() {
   return (
     <>
-
       <section className="cost-tracking-section">
         <div className="container-fluid">
           <div className="cost-tracking">
@@ -89,13 +92,13 @@ export default function CostDashboard() {
                 </div>
               </div>
               <div className="line-graph-bottom">
-                <img src={linechart} alt="" />
+                <ApexChart />
               </div>
             </div>
             <div className="pie-chart">
               <h4>Total Cost breakdown</h4>
-              <div className="pie-graph-bottom">
-                <img src={piechart} alt="" />
+              <div className="pie-graph-bottom GrapBox">
+                <PieArcLabel />
               </div>
             </div>
           </div>
