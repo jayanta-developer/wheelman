@@ -21,8 +21,8 @@ export function PieChart() {
       chartType="PieChart"
       data={data}
       options={options}
-      width={"700px"}
-      height={"600px"}
+      width={"100%"}
+      height={"400px"}
     />
   );
 }
