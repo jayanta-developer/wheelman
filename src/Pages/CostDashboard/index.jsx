@@ -9,8 +9,8 @@ import linechart from "../../Assets/images/linegr.png";
 import piechart from "../../Assets/images/pie-chart.png";
 
 //components
-import PieArcLabel from "../../Component/PieChart"
 import ApexChart from "../../Component/LineChart"
+import { PieChart } from "../../Component/PieChartV2"
 
 
 
@@ -98,7 +98,8 @@ export default function CostDashboard() {
             <div className="pie-chart">
               <h4>Total Cost breakdown</h4>
               <div className="pie-graph-bottom GrapBox">
-                <PieArcLabel />
+                {/* <PieArcLabel /> */}
+                <PieChart />
               </div>
             </div>
           </div>
