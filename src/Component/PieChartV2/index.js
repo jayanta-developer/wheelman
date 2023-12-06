@@ -1,5 +1,6 @@
 import React from "react";
 import { Chart } from "react-google-charts";
+import "./style.css";
 
 export const data = [
   ["Task", "Hours per Day"],
@@ -11,7 +12,7 @@ export const data = [
 ];
 
 export const options = {
-  title: "Cost breakdown",
+  // title: "Cost breakdown",
 };
 
 export function PieChart() {
@@ -20,8 +21,8 @@ export function PieChart() {
       chartType="PieChart"
       data={data}
       options={options}
-      width={"100%"}
-      height={"400px"}
+      width={"700px"}
+      height={"600px"}
     />
   );
 }
